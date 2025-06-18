@@ -1,0 +1,114 @@
+/* Header styling - same as home but with back button */
+.forum-header {
+  background-color: #C8D5DC;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forum-logo {
+  height: 40px;
+}
+
+.forum-profile {
+  background-color: #D6A0A0;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+/* Profile icon on the right */
+.profile-icon-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Back button styling */
+.back-button {
+  background-color: #272B56;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+/* Main content area */
+.forum-main {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: calc(100vh - 60px);
+}
+
+/* Forum post container */
+.forum-post-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Profile row inside forum post */
+.profile-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Black circle for profile icon placeholder */
+.black-circle {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Username text */
+.username-text {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Forum post image */
+.forum-image {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+  object-fit: cover;
+}
+
+/* Post text */
+.post-text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Add button (+) */
+.add-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #D89999;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

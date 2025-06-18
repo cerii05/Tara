@@ -1,0 +1,112 @@
+/* scorePage.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 40px;
+}
+
+.profile-icon {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.back-button {
+  margin: 10px 20px;
+  padding: 8px 14px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-button:hover {
+  color: #628395;
+}
+
+main {
+  text-align: center;
+  padding: 20px 15px;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+main h2 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  color: #333;
+}
+
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #C1D9BF;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.score-text {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.score-bold-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-lanjutkan,
+.btn-halaman-utama {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  min-width: 120px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-lanjutkan {
+  background-color: #628395;
+}
+
+.btn-lanjutkan:hover {
+  background-color: #4a6775;
+}
+
+.btn-halaman-utama {
+  background-color: #D89999;
+}
+
+.btn-halaman-utama:hover {
+  background-color: #b37070;
+}

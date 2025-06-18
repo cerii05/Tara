@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F9F1F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  text-align: center;
+  width: 300px;
+}
+
+.login-logo {
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #F3E1E0;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signup-link-container {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.signup-link-container span {
+  color: black;
+}
+
+.signup-link-container a {
+  color: #2600FF;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #628395;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

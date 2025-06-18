@@ -1,0 +1,98 @@
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-height: 60px;
+}
+
+.home-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+.profile-icon-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover; /* gambar bulat tetap rapi */
+  background-color: #ccc;
+}
+
+.home-main {
+  padding: 20px;
+  text-align: center;
+}
+
+.welcome-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.container-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.ai-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%; /* adjust as needed */
+  cursor: pointer;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.row-container .image-container {
+  flex: 1;
+}
+
+.forum-container {
+  margin: 0 auto 40px;
+  width: 80%;
+}
+
+.forum-container .container-image {
+  width: 100%;
+  max-width: 300px;
+}
+
+
+

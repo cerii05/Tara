@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.profile-icon {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.back-button {
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bab-main {
+  padding: 20px;
+}
+
+.bab-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.dictionary-entry {
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+}

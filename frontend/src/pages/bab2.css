@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #C8D5DC;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  height: 35px;
+}
+
+.profile-icon {
+  height: 30px;
+  border-radius: 50%;
+}
+
+.back-button {
+  margin: 10px 15px;
+  background-color: #272B56;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bab2-main {
+  padding: 0 20px 20px;
+}
+
+.bab-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.dictionary-content {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.dictionary-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.dictionary-content li {
+  margin-bottom: 8px;
+}

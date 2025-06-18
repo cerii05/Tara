@@ -1,0 +1,123 @@
+.skytrain-body {
+  height: 100vh;           /* full viewport height */
+  overflow-y: auto;        /* allow vertical scroll */
+  background-size: cover;  /* cover whole area */
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+}
+
+.skytrain-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* slightly transparent white bg */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky; /* keep header on top while scrolling */
+  top: 0;
+  z-index: 10;
+}
+
+.back-button {
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.back-button:hover {
+  color: #007bff;
+}
+
+.logo-img {
+  width: 120px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.skytrain-main {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.image-row {
+  position: relative;
+  display: inline-block; /* shrink-wrap to content */
+}
+
+.train-img {
+  display: block;
+  max-width: 400px; /* adjust size */
+  height: auto;
+  cursor: pointer;
+  user-select: none;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.side-img {
+  position: absolute;
+  left: -120px; /* distance to the left of train */
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100px; /* flag size */
+  height: auto;
+  user-select: none;
+  z-index: 1;
+}
+
+ /* Tambahkan garis vertikal (jalur kereta) */
+
+.skytrain-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.train-img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: grab;
+  z-index: 2;
+  user-select: none;
+}
+
+.flag-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.flag-label {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-top: 2px;
+  font-size: 12px;
+}
+
